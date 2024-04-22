@@ -1,0 +1,34 @@
+
+.employee-link{
+    text-decoration: none;
+    transition: color 0.3s ease;
+    filter: blur(0.48px);
+  }
+
+.employee-link:hover{
+    filter: none;
+}
+
+.employee-container .employee-link {
+    text-decoration: none;
+    color : white;
+}
+
+.employee-container {
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+}
+
+.employee-details {
+    display: flex;
+    flex-direction: column;
+}
+
+
+

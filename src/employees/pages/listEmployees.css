@@ -1,0 +1,27 @@
+.index-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top:50px;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.main-container {
+    width: 95%;
+}
+
+.add-button{
+    position: fixed;
+    top: 7px;
+    right: 330px;
+    color: black;
+    z-index: 10000;
+    font-size: 20px;
+}
+  
+  
+

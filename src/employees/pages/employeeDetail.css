@@ -1,0 +1,62 @@
+.modalBackdrop {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    backdrop-filter: blur(8px);
+}
+
+.data-container {
+    width:100%;
+    padding: 20px;
+    padding-top: 40px;
+    border-radius: 8px;
+    background-color: #ccc;
+    color: #000000;
+    overflow-y: auto; 
+    overflow-x: hidden;
+    box-shadow: 0 0 10px rgba(211, 211, 211, 0.5); 
+    position: relative;
+  }
+
+  .data-container p {
+    margin-bottom: 15px;
+  }
+
+  .data-container strong {
+    font-weight: bold;
+  }
+
+  .member-select-dropdown1{
+    height:110px;
+    overflow-y: auto;
+    background-color: #E9E9ED;
+  }
+
+  .member-select-dropdown1 ul li{
+    list-style-type: lower-roman;
+    margin-top: 4px;
+    margin-bottom: 12px;
+    margin-left: 5px;
+  }
+
+  .button-edit-top{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 25px;
+    color: black;
+    background-color: white;
+    border: 0px;
+  }
+
+  .button-edit-top:hover{
+    color:white;
+    background-color: black;
+  }
+
+

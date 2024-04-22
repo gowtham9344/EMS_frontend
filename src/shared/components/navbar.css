@@ -1,0 +1,8 @@
+.navbar{
+    background-color: #ADADAD !important;
+    height: 60px;
+}
+
+.active{
+    font-weight: bold;
+}

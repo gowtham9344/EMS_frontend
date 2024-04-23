@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { AuthContext } from '../../shared/context/authContext';
 
 export default function EmployeeDetailCard({ employee,team,manager, onEditClickHandler }) {
-  const role = employee.is_manager ? "He/She is the manager of this team" : (manager ? manager.name : "Not assigned");
+  const role = employee.is_manager ? "You are the manager" : (manager ? manager.name : "Not assigned");
   const auth = useContext(AuthContext)
   
   return (
@@ -35,7 +35,7 @@ export default function EmployeeDetailCard({ employee,team,manager, onEditClickH
             {team.name.charAt(0).toUpperCase() + team.name.slice(1)}
           </p>
           <p>
-            <strong>Role:</strong> {role}
+            <strong>Manager:</strong> {role}
           </p>
         </>
       ) : (

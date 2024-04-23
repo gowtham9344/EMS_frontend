@@ -7,9 +7,11 @@ import { AuthContext } from '../context/authContext';
 function NavBar() {
   const auth = useContext(AuthContext)
 
-  const onLogout = ()=>{
-    toast.success("you have been successfully logged out",auth.toastOptions);
-    auth.logout()
+  const onLogout = () => {
+    if (window.confirm("Are you sure you want to logout?")) {
+        toast.success("You have been successfully logged out", auth.toastOptions);
+        auth.logout();
+    }
   }
 
   return (
